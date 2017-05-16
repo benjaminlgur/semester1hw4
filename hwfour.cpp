@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//variables
-float input, price, dis, surcharge, offset;
-int att, tru;
-char a;
-
 float calculate_discount(float price);
 float calculate_surcharge(float price);
 
