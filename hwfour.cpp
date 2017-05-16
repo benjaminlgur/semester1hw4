@@ -6,20 +6,16 @@ float input, price, dis, surcharge, offset;
 int att, tru;
 char a;
 
-float calculate_discount(float price)
-{
-    dis = price - input;
-    return dis;
-}
-
-float calculate_surcharge(float price)
-{
-    surcharge = price - input;
-    return surcharge;
-}
+float calculate_discount(float price);
+float calculate_surcharge(float price);
 
 int main()
 {
+    //variables
+    float input, price, dis, surcharge, offset;
+    int att, tru;
+    char a;
+    
     //dif var 
     att = 10;
     tru = 1;
@@ -91,5 +87,18 @@ int main()
         }
     }
 }
+
+float calculate_discount(float price)
+{
+    dis = price - input;
+    return dis;
+}
+
+float calculate_surcharge(float price)
+{
+    surcharge = price - input;
+    return surcharge;
+}
+
 
 
