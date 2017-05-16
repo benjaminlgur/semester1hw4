@@ -85,15 +85,22 @@ int main()
 
 float calculate_discount(float price)
 {
+// for some reason I have to redeclare var
+float dis, input;
+
     dis = price - input;
     return dis;
 }
 
 float calculate_surcharge(float price)
 {
+// for somereason have to redeclare var
+float surcharge, input;
+
     surcharge = price - input;
     return surcharge;
 }
+
 
 
 
